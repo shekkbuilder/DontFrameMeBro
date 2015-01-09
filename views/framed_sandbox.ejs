@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Don't Frame Me Bro</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/flat-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <body>
+  	<div class="demo-headline">
+  	<h3 class="demo-logo">Don't Frame Me, Bro</h3>
+  	<small class="logo">If your page is displayed here, then it is frameable - Sandboxed iFrame</small>
+  </div>
+    
+<center><iframe sandbox="allow-forms" src="<%= url %>" height="1024" width="800"></iframe></center>
+<script src="../components/jquery/jquery.js"></script>
+  </body>
+</html>
